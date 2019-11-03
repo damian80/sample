@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header div:nth-child(1) {
+    background-color: greenyellow;
+}
+
+header div:nth-child(2) {
+    background-color: firebrick;
+}
+
+header div:nth-child(3) {
+    background-color: deepskyblue;
+
+}
+
+header div:nth-child(4) {
+    background-color: coral;
+}
+
+header div {
+
+    width: 25%;
+    height: 200px;
+    border: 30px solid white;
+    background-color: royalblue;
+    float: left;
+}
+
+nav {
+    background-color: black;
+    /* height: 50px; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    font-size: 26px;
+    color: white;
+}
